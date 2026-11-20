@@ -3,7 +3,7 @@
 .duomint-hidden{display:none!important}
 #duomint-card{position:fixed!important;z-index:2147483600!important;right:24px!important;top:85px!important;width:300px!important;max-height:min(720px,calc(100vh - 100px));overflow:auto!important;background:linear-gradient(155deg,rgba(29,43,53,.97),rgba(13,23,30,.97))!important;color:#edf7fa!important;border:1px solid rgba(113,149,158,.46)!important;border-radius:17px!important;box-shadow:0 18px 45px rgba(0,0,0,.35)!important;font:13px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif!important;text-align:left!important;scrollbar-width:thin!important;direction:ltr!important}
 #duomint-card .duomint-header{display:flex!important;align-items:center!important;gap:10px!important;padding:13px 14px!important;background:rgba(255,255,255,.035)!important;border-bottom:1px solid rgba(200,240,230,.12)!important}
-#duomint-card .duomint-logo{width:39px!important;height:39px!important;display:grid!important;place-items:center!important;border-radius:12px!important;background:#233d38!important;color:#53ffd3!important;font-size:26px!important}
+#duomint-card .duomint-logo{width:39px!important;height:39px!important;display:block!important;flex:none!important;border-radius:12px!important}
 #duomint-card .duomint-name{flex:1!important;display:flex!important;flex-direction:column!important;gap:1px!important}
 #duomint-card .duomint-name b{font-size:17px!important;letter-spacing:-.5px!important;color:#fff!important}
 #duomint-card .duomint-name small{font-size:9px!important;letter-spacing:1.2px!important;color:#82a69c!important;font-weight:700!important}

@@ -50,6 +50,7 @@
   "web_accessible_resources": [
     {
       "resources": [
+        "img/logo-48.png",
         "engine.html",
         "engine-host.js",
         "engine/stockfish-19-single.js",

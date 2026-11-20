@@ -19,7 +19,7 @@ function initialize(){
   host=h('iframe');host.id='duomint-host';host.setAttribute('aria-hidden','true');host.src=chrome.runtime.getURL('engine.html');host.style.cssText='display:none!important;width:0;height:0;border:0';document.documentElement.appendChild(host);
  }
  card=h('section','duomint-card');card.id='duomint-card';card.setAttribute('aria-label','DuoMint assistente scacchi');
- const header=h('div','duomint-header');const logo=h('div','duomint-logo','♞');const hbox=h('div','duomint-name');hbox.append(h('b',null,'DuoMint'),h('small',null,'STOCKFISH 19 FULL · v2.3.3'));
+ const header=h('div','duomint-header');const logo=h('img','duomint-logo');logo.src=chrome.runtime.getURL('img/logo-48.png');logo.alt='';const hbox=h('div','duomint-name');hbox.append(h('b',null,'DuoMint'),h('small',null,'STOCKFISH 19 FULL · v2.3.3'));
  const collapse=h('button','duomint-round','–');collapse.title='Riduci pannello';collapse.addEventListener('click',()=>{showPanel=!showPanel;card.classList.toggle('duomint-collapsed',!showPanel);collapse.textContent=showPanel?'–':'+'});header.append(logo,hbox,collapse);
  const body=h('div','duomint-body');
  const state=h('div','duomint-state');state.append(h('span','duomint-indicator'),h('span',null,'In attesa della scacchiera…'));state.id='duomint-state';
