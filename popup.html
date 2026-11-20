@@ -1,0 +1,18 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DuoMint • Impostazioni</title><link rel="stylesheet" href="popup.css"></head><body>
+<main>
+<header><div class="mark">♞</div><div><h1>DuoMint</h1><p>ChessMint per Duolingo</p></div><span class="version">v2.3.3 — Stockfish 19 FULL</span></header>
+<section class="intro">Suggerimenti scacchistici, valutazione della posizione e Auto-move per le lezioni e le partite contro Oscar.</section>
+<section class="setting"><div><b>Profondità di analisi</b><small>Solo Stockfish 19 FULL · profondità 8–22</small></div><div class="range"><input id="depth" type="range" min="8" max="22" value="18"><output id="depthout">18</output></div></section>
+<section class="setting"><div><b>Velocità delle mosse</b><small>Stockfish 19 FULL: Turbo ≈ 0,6 s, Equilibrato ≈ 1,2 s, Preciso ≈ 2,5 s di ricerca; il primo avvio può richiedere più tempo.</small></div><select id="think_ms"><option value="600">Turbo (0,6 s)</option><option value="1200">Equilibrato (1,2 s)</option><option value="2500">Preciso (2,5 s)</option></select></section>
+<section class="setting"><div><b>Suggerimenti</b><small>Mostra frecce e mosse migliori sulla scacchiera</small></div><input id="show_hints" type="checkbox"></section>
+<section class="setting"><div><b>Valutazione</b><small>Valutazione numerica e barra laterale</small></div><input id="evaluation_bar" type="checkbox"></section>
+<section class="setting"><div><b>Progressione profondità</b><small>Mostra la profondità raggiunta dal motore</small></div><input id="depth_bar" type="checkbox"></section>
+<section class="setting"><div><b>Analisi delle mosse</b><small>Segnala imprecisioni ed errori dopo la mossa</small></div><input id="move_analysis" type="checkbox"></section>
+<section class="setting"><div><b>Auto-move</b><small>Solo lezioni e partite contro Oscar. Mai in PvP.</small></div><input id="auto_move" type="checkbox"></section>
+<section class="setting"><div><b>Colore dei tuoi pezzi</b><small>Se Duolingo non rileva correttamente il colore, scegli Bianco o Nero.</small></div><select id="player_color"><option value="auto">Automatico</option><option value="white">Bianco</option><option value="black">Nero</option></select></section>
+<section class="setting"><div><b>Ripeti partite contro Oscar</b><small>Dopo la vittoria: Continua → Continua → Sfida Oscar. Non attivo in PvP.</small></div><input id="auto_rematch_oscar" type="checkbox"></section>
+<div class="help"><b>Stato Auto-move</b><p id="auto_debug">Nessun tentativo registrato</p></div>
+<div id="status" class="status" aria-live="polite">Le modifiche vengono salvate automaticamente.</div>
+<div class="help"><b>Motore incluso</b><p>Stockfish 19 FULL analizza le posizioni sul tuo dispositivo. Il primo avvio può richiedere qualche secondo.</p></div>
+<footer><a href="https://www.duolingo.com/learn" target="_blank" rel="noopener noreferrer">Apri Duolingo</a><span>Estensione non ufficiale</span></footer>
+</main><script src="popup.js"></script></body></html>

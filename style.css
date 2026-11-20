@@ -1,0 +1,47 @@
+#duomint-card,#duomint-overlay,#duomint-evalbar{box-sizing:border-box!important}
+#duomint-card *,#duomint-overlay *,#duomint-evalbar *{box-sizing:border-box!important}
+.duomint-hidden{display:none!important}
+#duomint-card{position:fixed!important;z-index:2147483600!important;right:24px!important;top:85px!important;width:300px!important;max-height:min(720px,calc(100vh - 100px));overflow:auto!important;background:linear-gradient(155deg,rgba(29,43,53,.97),rgba(13,23,30,.97))!important;color:#edf7fa!important;border:1px solid rgba(113,149,158,.46)!important;border-radius:17px!important;box-shadow:0 18px 45px rgba(0,0,0,.35)!important;font:13px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif!important;text-align:left!important;scrollbar-width:thin!important;direction:ltr!important}
+#duomint-card .duomint-header{display:flex!important;align-items:center!important;gap:10px!important;padding:13px 14px!important;background:rgba(255,255,255,.035)!important;border-bottom:1px solid rgba(200,240,230,.12)!important}
+#duomint-card .duomint-logo{width:39px!important;height:39px!important;display:grid!important;place-items:center!important;border-radius:12px!important;background:#233d38!important;color:#53ffd3!important;font-size:26px!important}
+#duomint-card .duomint-name{flex:1!important;display:flex!important;flex-direction:column!important;gap:1px!important}
+#duomint-card .duomint-name b{font-size:17px!important;letter-spacing:-.5px!important;color:#fff!important}
+#duomint-card .duomint-name small{font-size:9px!important;letter-spacing:1.2px!important;color:#82a69c!important;font-weight:700!important}
+#duomint-card button{font-family:inherit!important;cursor:pointer!important;opacity:1!important;line-height:1.2!important;box-shadow:none!important;max-width:100%!important;transform:none!important;position:static!important}
+#duomint-card button:disabled{cursor:not-allowed!important;opacity:.45!important}
+#duomint-card .duomint-round{border:1px solid #49636b!important;color:#eaf4f5!important;background:transparent!important;width:29px!important;height:29px!important;border-radius:8px!important;font-size:22px!important;padding:0!important}
+#duomint-card .duomint-body{padding:12px 13px 15px!important;display:flex!important;flex-direction:column!important;gap:11px!important}
+#duomint-card.duomint-collapsed .duomint-body{display:none!important}
+#duomint-card .duomint-state{display:flex!important;align-items:center!important;gap:7px!important;font-size:12px!important;color:#b8d1d7!important}
+#duomint-card .duomint-indicator{display:inline-block!important;width:8px!important;height:8px!important;background:#64bedf!important;border-radius:50%!important;flex:0 0 auto!important}
+#duomint-card .duomint-state[data-kind="ok"] .duomint-indicator{background:#37dea4!important}
+#duomint-card .duomint-state[data-kind="error"] .duomint-indicator{background:#ff707b!important}
+#duomint-card .duomint-state[data-kind="warning"] .duomint-indicator{background:#ffc86b!important}
+#duomint-card .duomint-stats{display:grid!important;grid-template-columns:1fr 1fr!important;gap:9px!important}
+#duomint-card .duomint-tile{border:1px solid #344c50!important;border-radius:12px!important;display:flex!important;flex-direction:column!important;padding:8px 10px!important;gap:1px!important;background:rgba(255,255,255,.025)!important}
+#duomint-card .duomint-tile small{font-size:9px!important;letter-spacing:.8px!important;color:#9aafb4!important;font-weight:700!important}
+#duomint-card .duomint-tile strong{font-size:22px!important;font-weight:800!important;color:#e8ffff!important;font-variant-numeric:tabular-nums!important}
+#duomint-card .duomint-progress{height:5px!important;overflow:hidden!important;border-radius:9px!important;background:#32414c!important}
+#duomint-progressbar{height:100%!important;width:0;background:linear-gradient(90deg,#14ad84,#67edb6)!important;transition:width .2s ease!important}
+#duomint-card .duomint-subhead{font-weight:800!important;font-size:10px!important;letter-spacing:1.15px!important;color:#b6cacf!important}
+#duomint-card .duomint-moves{display:flex!important;flex-direction:column!important;gap:6px!important;color:#adc3c7!important}
+#duomint-card .duomint-move{display:flex!important;justify-content:space-between!important;align-items:center!important;padding:9px 10px!important;border-radius:9px!important;border:1px solid #344e55!important;background:#263943!important;color:#dce6e9!important}
+#duomint-card .duomint-move:first-child{background:#244c44!important;border-color:#2f7969!important}
+#duomint-card .duomint-move b{color:#ecffff!important;font-size:15px!important}
+#duomint-card .duomint-move span{font-variant-numeric:tabular-nums!important;font-weight:700!important;color:#aaf1d9!important}
+#duomint-card .duomint-solution{background:#124b3f!important;color:#96ffe0!important;padding:7px!important;border-radius:7px!important}
+#duomint-card .duomint-info{font-size:11px!important;color:#9fb5b8!important;margin:0!important;padding:0!important}
+#duomint-card .duomint-actions{display:grid!important;grid-template-columns:1fr 1fr!important;gap:7px!important}
+#duomint-card .duomint-button{border:1px solid #5b6c75!important;background:#354750!important;color:#eaffff!important;min-height:36px!important;border-radius:8px!important;font-size:11.5px!important;font-weight:750!important;padding:6px 7px!important;white-space:normal!important}
+#duomint-card .duomint-button:hover:not(:disabled){filter:brightness(1.15)!important}
+#duomint-card .duomint-primary{background:#008f71!important;border-color:#1dd2a5!important;color:#fff!important}
+#duomint-card .duomint-wide{grid-column:span 2!important}
+#duomint-card .duomint-active{background:#145c4b!important;border-color:#32ecba!important}
+#duomint-card .duomint-footer{border-top:1px solid #35464d!important;padding-top:9px!important;display:flex!important;gap:8px!important;align-items:center!important;justify-content:space-between!important;color:#8fa8b0!important;font-size:9.5px!important}
+#duomint-card .duomint-settings{border:0!important;background:none!important;color:#8fe8cf!important;padding:4px!important;font-size:11px!important;white-space:nowrap!important}
+#duomint-overlay{position:fixed!important;z-index:2147483599!important;pointer-events:none!important;overflow:visible!important}
+#duomint-overlay svg{width:100%!important;height:100%!important;display:block!important;overflow:visible!important}
+#duomint-evalbar{position:fixed!important;width:13px!important;background:#181e25!important;border:1px solid #44535c!important;z-index:2147483598!important;border-radius:4px!important;pointer-events:none!important;overflow:hidden!important}
+#duomint-evalbar .duomint-evalfill{height:50%;background:#e6eaf0!important;position:absolute!important;bottom:0!important;left:0!important;right:0!important;transition:height .25s ease!important}
+#duomint-evalbar span{position:absolute!important;top:50%!important;left:0!important;right:0!important;color:#f2d067!important;text-align:center!important;font-size:7px!important;writing-mode:vertical-rl!important;text-shadow:0 0 2px #000!important}
+@media(max-width:700px){#duomint-card{width:245px!important;right:8px!important;top:12px!important;font-size:12px!important}}

@@ -1,0 +1,72 @@
+{
+  "manifest_version": 3,
+  "name": "DuoMint — ChessMint per Duolingo",
+  "short_name": "DuoMint",
+  "version": "2.3.3",
+  "description": "DuoMint con Stockfish 19 FULL integrato, auto-move e rematch Oscar, modalità veloce.",
+  "icons": {
+    "16": "img/logo-16.png",
+    "48": "img/logo-48.png",
+    "128": "img/logo-128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.duolingo.com/*",
+    "https://duolingo.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.duolingo.com/*",
+        "https://duolingo.com/*"
+      ],
+      "js": [
+        "page-bridge.js"
+      ],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://www.duolingo.com/*",
+        "https://duolingo.com/*"
+      ],
+      "js": [
+        "content.js",
+        "oscar-rematch.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle",
+      "world": "ISOLATED"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "engine.html",
+        "engine-host.js",
+        "engine/stockfish-19-single.js",
+        "engine/stockfish-19-single.wasm"
+      ],
+      "matches": [
+        "https://www.duolingo.com/*",
+        "https://duolingo.com/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DuoMint"
+  },
+  "options_page": "popup.html",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}
