@@ -21,7 +21,7 @@
   <a href="https://github.com/Berserk-hub150/OscarKings/archive/refs/heads/main.zip"><strong>Download extension</strong></a> ·
   <a href="#live-demo">Demo</a> ·
   <a href="#installation">Installation</a> ·
-  <a href="#responsible-use">Responsible use</a>
+  <a href="#responsible-use-and-disclaimer">Responsible use</a>
 </p>
 
 ---
@@ -70,20 +70,20 @@ Open the DuoMint extension popup to adjust search depth (8–22), move suggestio
 
 The first engine startup may take longer. If the player color is detected incorrectly, choose White or Black manually. The Auto-move status field displays the last attempt.
 
-## Responsible use
+## Responsible use and disclaimer
 
-**OscarKings è un progetto indipendente, non ufficiale, senza affiliazione, approvazione o sponsorizzazione da parte di Duolingo.**
+**OscarKings is an independent, unofficial project. It is not affiliated with, endorsed by, or sponsored by Duolingo.**
 
-Il progetto è destinato alla sperimentazione tecnica e all'analisi scacchistica. Non è destinato a partite contro altri giocatori (PvP), ad aggirare le regole della piattaforma o a ottenere vantaggi sleali. Prima di utilizzarlo, verifica i termini di servizio e le regole applicabili.
+This project is intended for technical experimentation and chess analysis. It is not intended for player-versus-player (PvP) matches, circumvention of platform rules, or unfair play. Before using the extension, review the applicable terms of service and platform rules.
 
-Il software è fornito **così com'è**, senza garanzie espresse o implicite, nei limiti consentiti dalle licenze applicabili e dalla legge. L'utente è responsabile delle modalità di installazione, configurazione e utilizzo. Nei limiti consentiti dalla legge, gli autori e i manutentori declinano ogni responsabilità per uso improprio, danni, perdita di dati, sospensione o limitazione dell'account e altre conseguenze derivanti dall'uso del software. Nessuna clausola esclude responsabilità che non possano essere escluse per legge.
+The software is provided **AS IS**, without express or implied warranties, subject to applicable licenses and law. Users are solely responsible for how they install, configure, and use the extension.
 
-**English disclaimer:** OscarKings is an independent, unofficial project and is not affiliated with or endorsed by Duolingo. It is intended for technical experimentation and chess analysis, not PvP or unfair play. Users are responsible for complying with applicable platform rules and terms of service. The software is provided AS IS, without warranties, subject to applicable licenses and law. To the fullest extent permitted by law, authors and maintainers disclaim liability for misuse, damages, data loss, account restrictions or other consequences arising from use of the software. Nothing in this notice excludes liability that cannot lawfully be excluded.
+To the fullest extent permitted by applicable law, the authors and maintainers disclaim liability for misuse, damages, data loss, account suspension or restrictions, and other consequences arising from the use of this software. Nothing in this disclaimer excludes liability that cannot lawfully be excluded.
 
 ## Credits and licenses
 
-- ChessMint © 2022 thedemons. [Licenza MIT](CHESSMINT-LICENSE.txt).
-- Stockfish.js 19 di Chess.com e dei contributori di Stockfish. [Sorgenti della versione 19.0.0](https://github.com/nmrugg/stockfish.js/tree/v19.0.0) · [Licenza GPLv3](STOCKFISH-GPL-3.txt).
+- ChessMint © 2022 thedemons. [MIT License](CHESSMINT-LICENSE.txt).
+- Stockfish.js 19 by Chess.com and the Stockfish contributors. [Version 19.0.0 source code](https://github.com/nmrugg/stockfish.js/tree/v19.0.0) · [GPLv3 License](STOCKFISH-GPL-3.txt).
 
 ---
 
