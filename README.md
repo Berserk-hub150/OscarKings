@@ -2,6 +2,18 @@
 
 OscarKings ospita **DuoMint 2.3.3**, un’estensione Chrome per analizzare le posizioni negli scacchi di Duolingo. Stockfish 19 FULL gira sul dispositivo e mostra sulla scacchiera la mossa suggerita e la valutazione della posizione.
 
+## Demo — Stockfish 19 vs Oscar
+
+<p align="center">
+  <img src="./oscarkings-readme.gif" alt="OscarKings: real gameplay demonstration against Oscar with Stockfish 19" width="850">
+</p>
+
+<p align="center">
+  <a href="./oscarkings-readme.mp4">Watch the MP4 demo</a>
+</p>
+
+Registrazione reale, ritagliata, accelerata 5× e senza audio. La demo riguarda una partita contro Oscar, non contro altri giocatori.
+
 ## Installazione
 
 1. Da questa pagina scegli **Code → Download ZIP** ed estrai l’archivio.
@@ -15,7 +27,13 @@ Apri le opzioni di DuoMint per scegliere la velocità di ricerca, da **Turbo** (
 
 ## Avvertenza e limitazione di responsabilità
 
-OscarKings è un progetto indipendente, senza affiliazione con Duolingo. Il software è fornito così com’è, senza garanzie. Chi lo installa si assume la responsabilità del suo utilizzo e del rispetto delle regole della piattaforma. Nei limiti consentiti dalla legge applicabile, gli autori e i manutentori declinano ogni responsabilità per danni, perdita di dati o provvedimenti sull’account derivanti dall’uso dell’estensione.
+**OscarKings è un progetto indipendente, non ufficiale, senza affiliazione, approvazione o sponsorizzazione da parte di Duolingo.**
+
+Il progetto è destinato alla sperimentazione tecnica e all'analisi scacchistica. Non è destinato a partite contro altri giocatori (PvP), ad aggirare le regole della piattaforma o a ottenere vantaggi sleali. Prima di utilizzarlo, verifica i termini di servizio e le regole applicabili.
+
+Il software è fornito **così com'è**, senza garanzie espresse o implicite, nei limiti consentiti dalle licenze applicabili e dalla legge. L'utente è responsabile delle modalità di installazione, configurazione e utilizzo. Nei limiti consentiti dalla legge, gli autori e i manutentori declinano ogni responsabilità per uso improprio, danni, perdita di dati, sospensione o limitazione dell'account e altre conseguenze derivanti dall'uso del software. Nessuna clausola esclude responsabilità che non possano essere escluse per legge.
+
+**English disclaimer:** OscarKings is an independent, unofficial project and is not affiliated with or endorsed by Duolingo. It is intended for technical experimentation and chess analysis, not PvP or unfair play. Users are responsible for complying with applicable platform rules and terms of service. The software is provided AS IS, without warranties, subject to applicable licenses and law. To the fullest extent permitted by law, authors and maintainers disclaim liability for misuse, damages, data loss, account restrictions or other consequences arising from use of the software. Nothing in this notice excludes liability that cannot lawfully be excluded.
 
 ## Crediti e licenze
 
